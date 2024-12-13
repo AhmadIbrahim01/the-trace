@@ -1,0 +1,3 @@
+[submodule "the-trace-frontend"]
+	path = the-trace-frontend
+	url = https://github.com/AhmadIbrahim01/the-trace-frontend.git
