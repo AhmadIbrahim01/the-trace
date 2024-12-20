@@ -11,75 +11,66 @@
 
 ### Public User
 
-* As a public user, I want to view public cases so that I can stay informed about ongoing investigations.
+- As a public user, I want to view public cases so that I can stay informed about ongoing investigations.
+- As a public user, I want to submit tips to investigators so that I can contribute to solving cases.
+- As a public user, I want to comment on cases and participate in the community so that I can share my thoughts and engage with others.
 
-* As a public user, I want to submit tips to investigators so that I can contribute to solving cases.
+### Investigator
 
-* As a public user, I want to comment on cases and participate in the community so that I can share my thoughts and engage with others.
-
-
-### Instructor
-
-* As an investigator, I want access to advanced tools like AI statement analysis, chat assistance, and suspect sketching so that I can enhance my investigative efficiency.
-
-* As an investigator, I want to manage private cases so that I can maintain confidentiality while working on sensitive investigations.
-
+- As an investigator, I want access to advanced tools like AI statement analysis, chat assistance, and suspect sketching so that I can enhance my investigative efficiency.
+- As an investigator, I want to manage private cases so that I can maintain confidentiality while working on sensitive investigations.
+- As an investigator, I want to add suspects, witnesses, evidence, and statements so that I can organize and document case details effectively.
 
 ### Admin
 
-* As an admin, I want full access to all website features so that I can effectively manage the platform.
+- As an admin, I want full access to all website features so that I can effectively manage the platform.
+- As an admin, I want to manage users, cases, and settings so that the system runs smoothly and securely.
+- As an admin, I want to assign cases to investigators and scrape news for relevant case information so that I can streamline case management and gather additional insights.
 
-* As an admin, I want to manage users, cases, and settings so that the system runs smoothly and securely.
-
-   
 <br><br>
+
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
 
+### The Trace is built using the following technologies:
+
+- This project uses the [React.js](https://reactjs.org/) library along with [Redux](https://redux.js.org/) for building an interactive user interface and managing global state.
+- For the backend, the project utilizes [Node.js](https://nodejs.org/) with [Express.js](https://expressjs.com/) to handle API management, authentication, and server-side logic.
+- The platform stores data in a [MongoDB](https://www.mongodb.com/) database, which is ideal for flexible and scalable data management.
+- To provide AI-driven cognitive and behavioral insights, the platform integrates with the [OpenAI API](https://openai.com/) for advanced data processing.
+- The platform is deployed and hosted on [AWS](https://aws.amazon.com/) for scalable and secure cloud infrastructure.
 
 <br><br>
+
 <!-- UI UX -->
 <img src="./readme/title4.svg"/>
-
 
 <br><br>
 
 <!-- Database Design -->
 <img src="./readme/title5.svg"/>
 
-
-<img src="./readme/assets/The Trace_db.svg"/>
-
-
 <br><br>
-
 
 <!-- Implementation -->
 <img src="./readme/title6.svg"/>
 
 <br><br>
 
-
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
-
 
 <br><br>
 
 <!-- AWS Deployment -->
 <img src="./readme/title8.svg"/>
 
-
-  
-
 <br><br>
 
 <!-- Unit Testing -->
 <img src="./readme/title9.svg"/>
 
-
 <br><br>
-
 
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
