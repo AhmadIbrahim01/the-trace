@@ -45,6 +45,18 @@
 <!-- UI UX -->
 <img src="./readme/title4.svg"/>
 
+> We designed The Trace using wireframes and mockups, refining the layout to ensure seamless navigation and an intuitive user experience for public users, investigators, and admins.
+
+- Project Figma design [figma](https://www.figma.com/design/mjeu566OyQ5Dhj0wmGkPNO/Ahmad-Ibrahim---Assignments?node-id=480-2789&t=HPeNNR5Fo8aHo1MI-1)
+
+### Mockups
+
+| Home screen | Menu Screen | Order Screen |
+| ----------- | ----------- | ------------ |
+
+<!--
+| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | -->
+
 <br><br>
 
 <!-- Database Design -->
