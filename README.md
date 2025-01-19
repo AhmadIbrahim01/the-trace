@@ -47,15 +47,26 @@
 
 > We designed The Trace using wireframes and mockups, refining the layout to ensure seamless navigation and an intuitive user experience for public users, investigators, and admins.
 
-- Project Figma design [figma](https://www.figma.com/design/mjeu566OyQ5Dhj0wmGkPNO/Ahmad-Ibrahim---Assignments?node-id=480-2789&t=HPeNNR5Fo8aHo1MI-1)
+- Project Figma design [figma](https://www.figma.com/design/mjeu566OyQ5Dhj0wmGkPNO/Ahmad-Ibrahim---Assignments?node-id=480-2789&p=f&t=Zf0y69twQXMyYaqX-0)
 
 ### Mockups
 
-| Home screen | Menu Screen | Order Screen |
-| ----------- | ----------- | ------------ |
+ 
 
-<!--
-| ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | -->
+<table style="border: 1px solid grey; text-align:center">
+  <tr>
+    <th style="border: 1px solid grey; text-align:center">Investigator Dashboard Screen</th>
+    <th style="border: 1px solid grey; text-align:center">Suspect Details Screen</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid grey; text-align:center">
+      <img src="./readme/figma/Investigator.png" alt="Investigator Dashboard" width="800" height="520"/>
+    </td>
+    <td style="border: 1px solid grey; text-align:center">
+      <img src="./readme/figma/suspect.png" alt="Home" width="800" height="520"/>
+    </td>
+  </tr>
+</table>
 
 <br><br>
 
