@@ -62,6 +62,14 @@
 <!-- Database Design -->
 <img src="./readme/title5.svg"/>
 
+### Architecting Data Excellence: Innovative Database Design Strategies:
+
+
+| Case Model                          | User Model                               | Testimonial Model                               |
+| ---------------------------------------- | ----------------------------------------- | ----------------------------------------- |
+| ![Case](./readme/models/case-model.png)  | ![User](./readme/models/user-model.png)       | ![Testimonial](./readme/models/testimonial-model.png)       |
+
+
 <br><br>
 
 <!-- Implementation -->
