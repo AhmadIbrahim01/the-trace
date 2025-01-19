@@ -52,23 +52,12 @@
 ### Mockups
 
  
-
-<table style="border: 1px solid grey; text-align:center">
-  <tr>
-    <th style="border: 1px solid grey; text-align:center">Investigator Dashboard Screen</th>
-    <th style="border: 1px solid grey; text-align:center">Suspect Details Screen</th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid grey; text-align:center">
-      <img src="./readme/figma/investigator.png" alt="Investigator Dashboard" width="800" height="520"/>
-    </td>
-    <td style="border: 1px solid grey; text-align:center">
-      <img src="./readme/figma/suspect.png" alt="Home" width="800" height="520"/>
-    </td>
-  </tr>
-</table>
+| Investigator Dashboard Screen                          | Suspect Details Screen                               |
+| ---------------------------------------- | ----------------------------------------- |
+| ![Investigator](./readme/figma/investigator.png)  | ![Suspect](./readme/figma/suspect.png)       |
 
 <br><br>
+
 
 <!-- Database Design -->
 <img src="./readme/title5.svg"/>
