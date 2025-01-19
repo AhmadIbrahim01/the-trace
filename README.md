@@ -60,7 +60,7 @@
   </tr>
   <tr>
     <td style="border: 1px solid grey; text-align:center">
-      <img src="./readme/figma/Investigator.png" alt="Investigator Dashboard" width="800" height="520"/>
+      <img src="./readme/figma/investigator.png" alt="Investigator Dashboard" width="800" height="520"/>
     </td>
     <td style="border: 1px solid grey; text-align:center">
       <img src="./readme/figma/suspect.png" alt="Home" width="800" height="520"/>
