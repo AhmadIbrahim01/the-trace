@@ -75,6 +75,41 @@
 <!-- Implementation -->
 <img src="./readme/title6.svg"/>
 
+### User Screens
+
+| Landing Screen                           | User Profile                               |
+| ---------------------------------------- | ----------------------------------------- |
+| ![Landing](./readme/assets/landing-page.gif)  | ![fsdaf](./readme/assets/user-profile-page.gif)|
+| Public Cases                           | Case Details                            |
+| ![Landing](./readme/assets/cases-page.gif)  | ![fsdaf](./readme/assets/case-page.gif)      |
+
+### Investigator Screens
+
+| Investigator Cases                           | Investigator's Case Details                              |
+| ---------------------------------------- | ----------------------------------------- |
+| ![Landing](./readme/assets/investigator-cases.gif)  | ![fsdaf](./readme/assets/investigator-case.gif)|
+| Investigator's Stats                           | Investigator's Case Dashboard                           |
+| ![Landing](./readme/assets/investigator-stats-page.gif)  | ![fsdaf](./readme/assets/investigator-case-dashboard.gif)      |
+| Suspect Details                           | Witness Details                           |
+| ![Landing](./readme/assets/suspect-details.png)  | ![fsdaf](./readme/assets/witness-details.png)      |
+| Suspect Statement                           | Witness Statement                           |
+| ![Landing](./readme/assets/suspect-statement.png)  | ![fsdaf](./readme/assets/witness-statement.png)      |
+| Evidence Details                           | Suspect Sketch                           |
+| ![Landing](./readme/assets/evidence-details.png)  | ![fsdaf](./readme/assets/suspect-sketche.png)      |
+| AI Suspect Sketch                           | AI Statement Analysis                           |
+| ![Landing](./readme/assets/AI-suspect-sketch.gif)  | ![fsdaf](./readme/assets/AI-statement-analysis.gif)      |
+| Investigator GPT                           |                           |
+| ![Landing](./readme/assets/InvestigatorGPT.gif)  | ![fsdaf](./readme/assets/suspect-sketche.gif)      |
+
+### Admin Screens
+
+| Admin Dashboard                           | Manage Investigators                              |
+| ---------------------------------------- | ----------------------------------------- |
+| ![Landing](./readme/assets/admin-dashboard.png)  | ![fsdaf](./readme/assets/manage-investigators.png)|
+| Manage Cases                           | Manage-users                           |
+| ![Landing](./readme/assets/manage-cases.png)  | ![fsdaf](./readme/assets/manage-users.png)      |
+
+
 <br><br>
 
 <!-- Prompt Engineering -->
