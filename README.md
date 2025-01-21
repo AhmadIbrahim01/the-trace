@@ -163,11 +163,16 @@ Before you begin, ensure you have the following installed on your system:
 
 ## Steps to Run the Project
 
-### 1. Clone the Repository
+### 1. Clone the Repositories
 
 ```bash
-git clone https://github.com/username/project-name.git
-cd project-name
+# For Backend/Server Side:
+git clone https://github.com/AhmadIbrahim01/the-trace-backend.git
+cd the-trace-backend
+
+# For Frontend/Client Side:
+git clone https://github.com/AhmadIbrahim01/the-trace-frontend.git
+cd the-trace-frontend
 ```
 
 ### 2. Install Dependencies
@@ -175,14 +180,12 @@ cd project-name
 #### For Backend:
 
 ```bash
-cd backend
 npm install
 ```
 
 #### For Frontend:
 
 ```bash
-cd frontend
 npm install
 ```
 
@@ -190,23 +193,31 @@ npm install
 
 ### 3. Set Up Environment Variables
 
-Create a `.env` file in both the `backend` and `frontend` directories and add the following variables:
+Create a `.env` file in both the `the-trace-backend` and `the-trace-frontend` directories and add the following variables:
 
-#### In `backend/.env`:
+#### In `the-trace-backend/.env`:
 
 ```plaintext
-MONGO_URI=mongodb://localhost:27017/your-db-name
+SERVER_PORT=8000
+
+DB_NAME=thetracedb
+DB_HOST=mongodb://127.0.0.1
+DB_PORT=27017
+DB_USER=
+DB_PASSWORD=
+
+JWT_SECRET=secretahmad
+
 OPENAI_API_KEY=your-openai-api-key
-PORT=5000
 ```
 
-#### In `frontend/.env`:
+#### In `the-trace-frontend/.env`:
 
 ```plaintext
-REACT_APP_BACKEND_URL=http://localhost:5000
+VITE_SERVER_PORT = 8000
 ```
 
-Replace `your-openai-api-key` with your actual OpenAI API key and `your-db-name` with your MongoDB database name.
+Replace `your-openai-api-key` with your actual OpenAI API key and `thetracedb` with your MongoDB database name.
 
 ---
 
@@ -224,29 +235,29 @@ Alternatively, use a cloud service like MongoDB Atlas.
 
 ### 5. Run the Backend
 
-Navigate to the `backend` directory and start the server:
+Navigate to the `the-trace-backend` directory and start the server:
 
 ```bash
-cd backend
-npm run dev
+cd the-trace-backend
+npm start or npm run start:dev
 ```
 
 ---
 
 ### 6. Run the Frontend
 
-Navigate to the `frontend` directory and start the React app:
+Navigate to the `the-trace-frontend` directory and start the React app:
 
 ```bash
-cd frontend
-npm start
+cd the-trace-frontend
+npm run dev
 ```
 
 ---
 
 ### 7. Access the Application
 
-- Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+- Open your browser and navigate to [http://localhost:5173](http://localhost:5173).
 
 ---
 
