@@ -79,35 +79,35 @@
 
 | Landing Screen                           | User Profile                               |
 | ---------------------------------------- | ----------------------------------------- |
-| ![Landing](./readme/assets/landing-page.gif)  | ![fsdaf](./readme/assets/user-profile-page.gif)|
+| ![Landing](./readme/assets/landing-page.gif)  | ![User-profile](./readme/assets/user-profile-page.gif)|
 | Public Cases                           | Case Details                            |
-| ![Landing](./readme/assets/cases-page.gif)  | ![fsdaf](./readme/assets/case-page.gif)      |
+| ![Public-cases](./readme/assets/cases-page.gif)  | ![Case-details](./readme/assets/case-page.gif)      |
 
 ### Investigator Screens
 
 | Investigator Cases                           | Investigator's Case Details                              |
 | ---------------------------------------- | ----------------------------------------- |
-| ![Landing](./readme/assets/investigator-cases.gif)  | ![fsdaf](./readme/assets/investigator-case.gif)|
+| ![Investigator-cases](./readme/assets/investigator-cases.gif)  | ![Investigator-case](./readme/assets/investigator-case.gif)|
 | Investigator's Stats                           | Investigator's Case Dashboard                           |
-| ![Landing](./readme/assets/investigator-stats-page.gif)  | ![fsdaf](./readme/assets/investigator-case-dashboard.gif)      |
+| ![Investigator-stats](./readme/assets/investigator-stats-page.gif)  | ![Case-dashboard](./readme/assets/investigator-case-dashboard.gif)      |
 | Suspect Details                           | Witness Details                           |
-| ![Landing](./readme/assets/suspect-details.png)  | ![fsdaf](./readme/assets/witness-details.png)      |
+| ![Suspect-details](./readme/assets/suspect-details.png)  | ![Witness-details](./readme/assets/witness-details.png)      |
 | Suspect Statement                           | Witness Statement                           |
-| ![Landing](./readme/assets/suspect-statement.png)  | ![fsdaf](./readme/assets/witness-statement.png)      |
+| ![Suspect-statement](./readme/assets/suspect-statement.png)  | ![Suspect-statement](./readme/assets/witness-statement.png)      |
 | Evidence Details                           | Suspect Sketch                           |
-| ![Landing](./readme/assets/evidence-details.png)  | ![fsdaf](./readme/assets/suspect-sketche.png)      |
+| ![Evidence-details](./readme/assets/evidence-details.png)  | ![Suspect-sketch](./readme/assets/suspect-sketche.png)      |
 | AI Suspect Sketch                           | AI Statement Analysis                           |
-| ![Landing](./readme/assets/AI-suspect-sketch.gif)  | ![fsdaf](./readme/assets/AI-statement-analysis.gif)      |
+| ![AI-suspect-sketch](./readme/assets/AI-suspect-sketch.gif)  | ![AI-statement-analysis](./readme/assets/AI-statement-analysis.gif)      |
 | Investigator GPT                           |                           |
-| ![Landing](./readme/assets/InvestigatorGPT.gif)  | ![fsdaf](./readme/assets/suspect-sketche.gif)      |
+| ![InvestigatorGPT](./readme/assets/InvestigatorGPT.gif)  | ![fsdaf](./readme/assets/suspect-sketche.gif)      |
 
 ### Admin Screens
 
 | Admin Dashboard                           | Manage Investigators                              |
 | ---------------------------------------- | ----------------------------------------- |
-| ![Landing](./readme/assets/admin-dashboard.png)  | ![fsdaf](./readme/assets/manage-investigators.png)|
+| ![admin-dashboard](./readme/assets/admin-dashboard.png)  | ![manage-investigators](./readme/assets/manage-investigators.png)|
 | Manage Cases                           | Manage-users                           |
-| ![Landing](./readme/assets/manage-cases.png)  | ![fsdaf](./readme/assets/manage-users.png)      |
+| ![manage-cases](./readme/assets/manage-cases.png)  | ![manage-users](./readme/assets/manage-users.png)      |
 
 
 <br><br>
@@ -129,12 +129,19 @@
 <!-- AWS Deployment -->
 <img src="./readme/title8.svg"/>
 
+### Efficient AI Deployment: Unleashing the Potential with AWS Integration:
+
+- This project utilizes AWS deployment strategies to build a robust and scalable backend for The Trace. By leveraging the capabilities of AWS services, we ensure that our advanced investigative tools, such as AI-driven statement analysis, are delivered efficiently to support investigators, the public, and government admins.
+- **API Documentation**: Detailed API documentation can be accessed through [Postman](https://documenter.getpostman.com/view/39957658/2sAYQcGWcA).
+
+| Get Cases API                                   | Analyze Statement API        |
+| ------------------------------------------- | ----------------------------------------- |
+| ![Cases](./readme/APIs/get-cases.png)      | ![Statement](./readme/APIs/ai-statement-analyze.png) |
+| Add Suspect API                              | Add Suspect Statement API                   |
+| ![Suspect](./readme/APIs/add-suspect.png)   | ![Suspect-statement](./readme/APIs/add-suspect-statement.png) |
+
 <br><br>
 
-<!-- Unit Testing -->
-<img src="./readme/title9.svg"/>
-
-<br><br>
 
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
@@ -156,11 +163,16 @@ Before you begin, ensure you have the following installed on your system:
 
 ## Steps to Run the Project
 
-### 1. Clone the Repository
+### 1. Clone the Repositories
 
 ```bash
-git clone https://github.com/username/project-name.git
-cd project-name
+# For Backend/Server Side:
+git clone https://github.com/AhmadIbrahim01/the-trace-backend.git
+cd the-trace-backend
+
+# For Frontend/Client Side:
+git clone https://github.com/AhmadIbrahim01/the-trace-frontend.git
+cd the-trace-frontend
 ```
 
 ### 2. Install Dependencies
@@ -168,14 +180,12 @@ cd project-name
 #### For Backend:
 
 ```bash
-cd backend
 npm install
 ```
 
 #### For Frontend:
 
 ```bash
-cd frontend
 npm install
 ```
 
@@ -183,23 +193,31 @@ npm install
 
 ### 3. Set Up Environment Variables
 
-Create a `.env` file in both the `backend` and `frontend` directories and add the following variables:
+Create a `.env` file in both the `the-trace-backend` and `the-trace-frontend` directories and add the following variables:
 
-#### In `backend/.env`:
+#### In `the-trace-backend/.env`:
 
 ```plaintext
-MONGO_URI=mongodb://localhost:27017/your-db-name
+SERVER_PORT=8000
+
+DB_NAME=thetracedb
+DB_HOST=mongodb://127.0.0.1
+DB_PORT=27017
+DB_USER=
+DB_PASSWORD=
+
+JWT_SECRET=secretahmad
+
 OPENAI_API_KEY=your-openai-api-key
-PORT=5000
 ```
 
-#### In `frontend/.env`:
+#### In `the-trace-frontend/.env`:
 
 ```plaintext
-REACT_APP_BACKEND_URL=http://localhost:5000
+VITE_SERVER_PORT = 8000
 ```
 
-Replace `your-openai-api-key` with your actual OpenAI API key and `your-db-name` with your MongoDB database name.
+Replace `your-openai-api-key` with your actual OpenAI API key and `thetracedb` with your MongoDB database name.
 
 ---
 
@@ -217,29 +235,29 @@ Alternatively, use a cloud service like MongoDB Atlas.
 
 ### 5. Run the Backend
 
-Navigate to the `backend` directory and start the server:
+Navigate to the `the-trace-backend` directory and start the server:
 
 ```bash
-cd backend
-npm run dev
+cd the-trace-backend
+npm start or npm run start:dev
 ```
 
 ---
 
 ### 6. Run the Frontend
 
-Navigate to the `frontend` directory and start the React app:
+Navigate to the `the-trace-frontend` directory and start the React app:
 
 ```bash
-cd frontend
-npm start
+cd the-trace-frontend
+npm run dev
 ```
 
 ---
 
 ### 7. Access the Application
 
-- Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+- Open your browser and navigate to [http://localhost:5173](http://localhost:5173).
 
 ---
 
