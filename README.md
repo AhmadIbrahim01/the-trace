@@ -132,6 +132,7 @@
 ### Efficient AI Deployment: Unleashing the Potential with AWS Integration:
 
 - This project utilizes AWS deployment strategies to build a robust and scalable backend for The Trace. By leveraging the capabilities of AWS services, we ensure that our advanced investigative tools, such as AI-driven statement analysis, are delivered efficiently to support investigators, the public, and government admins.
+- **API Documentation**: Detailed API documentation can be accessed through [Postman](https://documenter.getpostman.com/view/39957658/2sAYQcGWcA).
 
 | Get Cases API                                   | Analyze Statement API        |
 | ------------------------------------------- | ----------------------------------------- |
