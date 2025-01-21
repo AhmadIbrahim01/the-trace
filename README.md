@@ -79,35 +79,35 @@
 
 | Landing Screen                           | User Profile                               |
 | ---------------------------------------- | ----------------------------------------- |
-| ![Landing](./readme/assets/landing-page.gif)  | ![fsdaf](./readme/assets/user-profile-page.gif)|
+| ![Landing](./readme/assets/landing-page.gif)  | ![User-profile](./readme/assets/user-profile-page.gif)|
 | Public Cases                           | Case Details                            |
-| ![Landing](./readme/assets/cases-page.gif)  | ![fsdaf](./readme/assets/case-page.gif)      |
+| ![Public-cases](./readme/assets/cases-page.gif)  | ![Case-details](./readme/assets/case-page.gif)      |
 
 ### Investigator Screens
 
 | Investigator Cases                           | Investigator's Case Details                              |
 | ---------------------------------------- | ----------------------------------------- |
-| ![Landing](./readme/assets/investigator-cases.gif)  | ![fsdaf](./readme/assets/investigator-case.gif)|
+| ![Investigator-cases](./readme/assets/investigator-cases.gif)  | ![Investigator-case](./readme/assets/investigator-case.gif)|
 | Investigator's Stats                           | Investigator's Case Dashboard                           |
-| ![Landing](./readme/assets/investigator-stats-page.gif)  | ![fsdaf](./readme/assets/investigator-case-dashboard.gif)      |
+| ![Investigator-stats](./readme/assets/investigator-stats-page.gif)  | ![Case-dashboard](./readme/assets/investigator-case-dashboard.gif)      |
 | Suspect Details                           | Witness Details                           |
-| ![Landing](./readme/assets/suspect-details.png)  | ![fsdaf](./readme/assets/witness-details.png)      |
+| ![Suspect-details](./readme/assets/suspect-details.png)  | ![Witness-details](./readme/assets/witness-details.png)      |
 | Suspect Statement                           | Witness Statement                           |
-| ![Landing](./readme/assets/suspect-statement.png)  | ![fsdaf](./readme/assets/witness-statement.png)      |
+| ![Suspect-statement](./readme/assets/suspect-statement.png)  | ![Suspect-statement](./readme/assets/witness-statement.png)      |
 | Evidence Details                           | Suspect Sketch                           |
-| ![Landing](./readme/assets/evidence-details.png)  | ![fsdaf](./readme/assets/suspect-sketche.png)      |
+| ![Evidence-details](./readme/assets/evidence-details.png)  | ![Suspect-sketch](./readme/assets/suspect-sketche.png)      |
 | AI Suspect Sketch                           | AI Statement Analysis                           |
-| ![Landing](./readme/assets/AI-suspect-sketch.gif)  | ![fsdaf](./readme/assets/AI-statement-analysis.gif)      |
+| ![AI-suspect-sketch](./readme/assets/AI-suspect-sketch.gif)  | ![AI-statement-analysis](./readme/assets/AI-statement-analysis.gif)      |
 | Investigator GPT                           |                           |
-| ![Landing](./readme/assets/InvestigatorGPT.gif)  | ![fsdaf](./readme/assets/suspect-sketche.gif)      |
+| ![InvestigatorGPT](./readme/assets/InvestigatorGPT.gif)  | ![fsdaf](./readme/assets/suspect-sketche.gif)      |
 
 ### Admin Screens
 
 | Admin Dashboard                           | Manage Investigators                              |
 | ---------------------------------------- | ----------------------------------------- |
-| ![Landing](./readme/assets/admin-dashboard.png)  | ![fsdaf](./readme/assets/manage-investigators.png)|
+| ![admin-dashboard](./readme/assets/admin-dashboard.png)  | ![manage-investigators](./readme/assets/manage-investigators.png)|
 | Manage Cases                           | Manage-users                           |
-| ![Landing](./readme/assets/manage-cases.png)  | ![fsdaf](./readme/assets/manage-users.png)      |
+| ![manage-cases](./readme/assets/manage-cases.png)  | ![manage-users](./readme/assets/manage-users.png)      |
 
 
 <br><br>
@@ -129,12 +129,18 @@
 <!-- AWS Deployment -->
 <img src="./readme/title8.svg"/>
 
+### Efficient AI Deployment: Unleashing the Potential with AWS Integration:
+
+- This project utilizes AWS deployment strategies to build a robust and scalable backend for The Trace. By leveraging the capabilities of AWS services, we ensure that our advanced investigative tools, such as AI-driven statement analysis, are delivered efficiently to support investigators, the public, and government admins.
+
+| Get Cases API                                   | Analyze Statement API        |
+| ------------------------------------------- | ----------------------------------------- |
+| ![Cases](./readme/APIs/get-cases.png)      | ![Statement](./readme/APIs/ai-statement-analyze.png) |
+| Add Suspect API                              | Add Suspect Statement API                   |
+| ![Suspect](./readme/APIs/add-suspect.png)   | ![Suspect-statement](./readme/APIs/add-suspect-statement.png) |
+
 <br><br>
 
-<!-- Unit Testing -->
-<img src="./readme/title9.svg"/>
-
-<br><br>
 
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
