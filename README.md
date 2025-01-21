@@ -115,6 +115,15 @@
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
+### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
+
+- This project utilizes advanced prompt engineering techniques to optimize interactions with the OpenAI API, aiming to assist in solving crime cases. By carefully crafting input prompts, we tailor the research process to generate precise insights, enhancing the accuracy and effectiveness of criminal investigations.
+
+<div style:"display:flex">
+ <img src="./readme/assets/investigatorGPT-prompt.png" width="500px"/>
+ <img src="./readme/assets/ai-statement-prompt.png" width="500px"/>
+</div>
+
 <br><br>
 
 <!-- AWS Deployment -->
@@ -129,3 +138,114 @@
 
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
+
+
+> To set up The Trace locally, follow these steps:
+
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+- **Node.js** (v16+ recommended)
+- **npm** or **yarn** (for package management)
+- **MongoDB** (running locally or on a cloud service)
+- **OpenAI API Key** (Sign up at [OpenAI](https://platform.openai.com/) to get your API key)
+
+---
+
+## Steps to Run the Project
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/username/project-name.git
+cd project-name
+```
+
+### 2. Install Dependencies
+
+#### For Backend:
+
+```bash
+cd backend
+npm install
+```
+
+#### For Frontend:
+
+```bash
+cd frontend
+npm install
+```
+
+---
+
+### 3. Set Up Environment Variables
+
+Create a `.env` file in both the `backend` and `frontend` directories and add the following variables:
+
+#### In `backend/.env`:
+
+```plaintext
+MONGO_URI=mongodb://localhost:27017/your-db-name
+OPENAI_API_KEY=your-openai-api-key
+PORT=5000
+```
+
+#### In `frontend/.env`:
+
+```plaintext
+REACT_APP_BACKEND_URL=http://localhost:5000
+```
+
+Replace `your-openai-api-key` with your actual OpenAI API key and `your-db-name` with your MongoDB database name.
+
+---
+
+### 4. Start MongoDB
+
+Ensure MongoDB is running on your system:
+
+```bash
+mongod
+```
+
+Alternatively, use a cloud service like MongoDB Atlas.
+
+---
+
+### 5. Run the Backend
+
+Navigate to the `backend` directory and start the server:
+
+```bash
+cd backend
+npm run dev
+```
+
+---
+
+### 6. Run the Frontend
+
+Navigate to the `frontend` directory and start the React app:
+
+```bash
+cd frontend
+npm start
+```
+
+---
+
+### 7. Access the Application
+
+- Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+
+---
+
+
+## Troubleshooting
+
+1. **MongoDB connection error**: Ensure MongoDB is running and `MONGO_URI` is correctly configured.
+2. **OpenAI API errors**: Check your API key and ensure your usage limit hasn't been exceeded.
+3. **Frontend not connecting to backend**: Verify that the `REACT_APP_BACKEND_URL` in the frontend `.env` file matches the backend server's URL.
