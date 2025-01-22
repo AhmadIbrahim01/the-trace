@@ -122,6 +122,7 @@
 <div style:"display:flex">
  <img src="./readme/assets/investigatorGPT-prompt.png" width="500px"/>
  <img src="./readme/assets/ai-statement-prompt.png" width="500px"/>
+ <img src="./readme/assets/ai-sketch-prompt.png" width="500px"/>
 </div>
 
 <br><br>
