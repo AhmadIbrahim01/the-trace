@@ -51,24 +51,20 @@
 
 ### Mockups
 
- 
-| Investigator Dashboard Screen                          | Suspect Details Screen                               |
-| ---------------------------------------- | ----------------------------------------- |
-| ![Investigator](./readme/figma/investigator.png)  | ![Suspect](./readme/figma/suspect.png)       |
+| Investigator Dashboard Screen                    | Suspect Details Screen                 |
+| ------------------------------------------------ | -------------------------------------- |
+| ![Investigator](./readme/figma/investigator.png) | ![Suspect](./readme/figma/suspect.png) |
 
 <br><br>
-
 
 <!-- Database Design -->
 <img src="./readme/title5.svg"/>
 
 ### Architecting Data Excellence: Innovative Database Design Strategies:
 
-
-| Case Model                          | User Model                               | Testimonial Model                               |
-| ---------------------------------------- | ----------------------------------------- | ----------------------------------------- |
-| ![Case](./readme/models/case-model.png)  | ![User](./readme/models/user-model.png)       | ![Testimonial](./readme/models/testimonial-model.png)       |
-
+| Case Model                              | User Model                              | Testimonial Model                                     |
+| --------------------------------------- | --------------------------------------- | ----------------------------------------------------- |
+| ![Case](./readme/models/case-model.png) | ![User](./readme/models/user-model.png) | ![Testimonial](./readme/models/testimonial-model.png) |
 
 <br><br>
 
@@ -77,45 +73,44 @@
 
 ### User Screens
 
-| Landing Screen                           | User Profile                               |
-| ---------------------------------------- | ----------------------------------------- |
-| ![Landing](./readme/assets/landing-page.gif)  | ![User-profile](./readme/assets/user-profile-page.gif)|
-| Public Cases                           | Case Details                            |
-| ![Public-cases](./readme/assets/cases-page.gif)  | ![Case-details](./readme/assets/case-page.gif)      |
+| Landing Screen                                  | User Profile                                           |
+| ----------------------------------------------- | ------------------------------------------------------ |
+| ![Landing](./readme/assets/landing-page.gif)    | ![User-profile](./readme/assets/user-profile-page.gif) |
+| Public Cases                                    | Case Details                                           |
+| ![Public-cases](./readme/assets/cases-page.gif) | ![Case-details](./readme/assets/case-page.gif)         |
 
 ### Investigator Screens
 
-| Investigator Cases                           | Investigator's Case Details                              |
-| ---------------------------------------- | ----------------------------------------- |
-| ![Investigator-cases](./readme/assets/investigator-cases.gif)  | ![Investigator-case](./readme/assets/investigator-case.gif)|
-| Investigator's Stats                           | Investigator's Case Dashboard                           |
-| ![Investigator-stats](./readme/assets/investigator-stats-page.gif)  | ![Case-dashboard](./readme/assets/investigator-case-dashboard.gif)      |
-| Suspect Details                           | Witness Details                           |
-| ![Suspect-details](./readme/assets/suspect-details.png)  | ![Witness-details](./readme/assets/witness-details.png)      |
-| Suspect Statement                           | Witness Statement                           |
-| ![Suspect-statement](./readme/assets/suspect-statement.png)  | ![Suspect-statement](./readme/assets/witness-statement.png)      |
-| Evidence Details                           | Suspect Sketch                           |
-| ![Evidence-details](./readme/assets/evidence-details.png)  | ![Suspect-sketch](./readme/assets/suspect-sketche.png)      |
-| AI Suspect Sketch                           | AI Statement Analysis                           |
-| ![AI-suspect-sketch](./readme/assets/AI-suspect-sketch.gif)  | ![AI-statement-analysis](./readme/assets/AI-statement-analysis.gif)      |
-| Investigator GPT                           |                           |
-| ![InvestigatorGPT](./readme/assets/InvestigatorGPT.gif)  | ![fsdaf](./readme/assets/suspect-sketche.gif)      |
+| Investigator Cases                                                 | Investigator's Case Details                                         |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| ![Investigator-cases](./readme/assets/investigator-cases.gif)      | ![Investigator-case](./readme/assets/investigator-case.gif)         |
+| Investigator's Stats                                               | Investigator's Case Dashboard                                       |
+| ![Investigator-stats](./readme/assets/investigator-stats-page.gif) | ![Case-dashboard](./readme/assets/investigator-case-dashboard.gif)  |
+| Suspect Details                                                    | Witness Details                                                     |
+| ![Suspect-details](./readme/assets/suspect-details.png)            | ![Witness-details](./readme/assets/witness-details.png)             |
+| Suspect Statement                                                  | Witness Statement                                                   |
+| ![Suspect-statement](./readme/assets/suspect-statement.png)        | ![Suspect-statement](./readme/assets/witness-statement.png)         |
+| Evidence Details                                                   | Suspect Sketch                                                      |
+| ![Evidence-details](./readme/assets/evidence-details.png)          | ![Suspect-sketch](./readme/assets/suspect-sketche.png)              |
+| AI Suspect Sketch                                                  | AI Statement Analysis                                               |
+| ![AI-suspect-sketch](./readme/assets/AI-suspect-sketch.gif)        | ![AI-statement-analysis](./readme/assets/AI-statement-analysis.gif) |
+| Investigator GPT                                                   |                                                                     |
+| ![InvestigatorGPT](./readme/assets/InvestigatorGPT.gif)            | ![fsdaf](./readme/assets/suspect-sketche.gif)                       |
 
 ### Admin Screens
 
-| Admin Dashboard                           | Manage Investigators                              |
-| ---------------------------------------- | ----------------------------------------- |
-| ![admin-dashboard](./readme/assets/admin-dashboard.png)  | ![manage-investigators](./readme/assets/manage-investigators.png)|
-| Manage Cases                           | Manage-users                           |
-| ![manage-cases](./readme/assets/manage-cases.png)  | ![manage-users](./readme/assets/manage-users.png)      |
-
+| Admin Dashboard                                         | Manage Investigators                                              |
+| ------------------------------------------------------- | ----------------------------------------------------------------- |
+| ![admin-dashboard](./readme/assets/admin-dashboard.png) | ![manage-investigators](./readme/assets/manage-investigators.png) |
+| Manage Cases                                            | Manage-users                                                      |
+| ![manage-cases](./readme/assets/manage-cases.png)       | ![manage-users](./readme/assets/manage-users.png)                 |
 
 <br><br>
 
 <!-- Prompt Engineering -->
 <img src="./readme/title7.svg"/>
 
-### Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
+### Enhancing investigators' efficiency and accuracy with advanced prompt engineering techniques:
 
 - This project utilizes advanced prompt engineering techniques to optimize interactions with the OpenAI API, aiming to assist in solving crime cases. By carefully crafting input prompts, we tailor the research process to generate precise insights, enhancing the accuracy and effectiveness of criminal investigations.
 
@@ -130,26 +125,23 @@
 <!-- AWS Deployment -->
 <img src="./readme/title8.svg"/>
 
-### Efficient AI Deployment: Unleashing the Potential with AWS Integration:
+### The backend is hosted on an AWS server:
 
 - This project utilizes AWS deployment strategies to build a robust and scalable backend for The Trace. By leveraging the capabilities of AWS services, we ensure that our advanced investigative tools, such as AI-driven statement analysis, are delivered efficiently to support investigators, the public, and government admins.
 - **API Documentation**: Detailed API documentation can be accessed through [Postman](https://documenter.getpostman.com/view/39957658/2sAYQcGWcA).
 
-| Get Cases API                                   | Analyze Statement API        |
-| ------------------------------------------- | ----------------------------------------- |
-| ![Cases](./readme/APIs/get-cases.png)      | ![Statement](./readme/APIs/ai-statement-analyze.png) |
-| Add Suspect API                              | Add Suspect Statement API                   |
-| ![Suspect](./readme/APIs/add-suspect.png)   | ![Suspect-statement](./readme/APIs/add-suspect-statement.png) |
+| Get Cases API                             | Analyze Statement API                                         |
+| ----------------------------------------- | ------------------------------------------------------------- |
+| ![Cases](./readme/APIs/get-cases.png)     | ![Statement](./readme/APIs/ai-statement-analyze.png)          |
+| Add Suspect API                           | Add Suspect Statement API                                     |
+| ![Suspect](./readme/APIs/add-suspect.png) | ![Suspect-statement](./readme/APIs/add-suspect-statement.png) |
 
 <br><br>
-
 
 <!-- How to run -->
 <img src="./readme/title10.svg"/>
 
-
 > To set up The Trace locally, follow these steps:
-
 
 ## Prerequisites
 
@@ -261,7 +253,6 @@ npm run dev
 - Open your browser and navigate to [http://localhost:5173](http://localhost:5173).
 
 ---
-
 
 ## Troubleshooting
 
